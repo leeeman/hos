@@ -1,0 +1,45 @@
+/*html {
+  height: 100%;
+}*/
+
+body{
+	background-image: url("../images/back.jpg");
+	background-size: 50% ;
+ 	background-position: center;
+ 	/*background-repeat: no-repeat;*/
+ 	overflow-x: hidden;
+}
+
+div.row .tile{
+	margin: 0px;
+}
+
+.form-style{
+	padding: 20px 40px 20px 90px;
+    border: 1px #ccc solid;
+    position: relative;
+    margin: 0 0 10px 0;
+    background-color: #fdfdfd !important;
+    min-height: 100px;
+}
+
+#dashboard_content{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#overlay {
+	position: fixed;
+	z-index: 1000;
+	background-color: #f8f8f8;
+	display: none;
+	opacity: 0.9;
+	filter: alpha(opacity=0.9);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.amount{
+	text-align: right;
+}
